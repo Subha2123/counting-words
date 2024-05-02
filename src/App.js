@@ -44,7 +44,7 @@ export default function App() {
         keyValueArray.push({ key: key, value: wordCount[key] });
       }
     }
-    // console.log(wordCount);
+
     // setCount(JSON.stringify(wordCount, null, 8));
 
     const chunkSize = 10;
